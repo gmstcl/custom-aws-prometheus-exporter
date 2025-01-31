@@ -10,7 +10,7 @@ import time
 app = Flask(__name__)
 
 # Get region from environment variables
-region = os.getenv('AWS_REGION', 'us-east-1')
+region = os.getenv('AWS_REGION', 'ap-northeast-2')
 
 # Initialize AWS Session
 session_kwargs = {'region_name': region}
